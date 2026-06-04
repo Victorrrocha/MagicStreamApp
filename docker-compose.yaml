@@ -3,7 +3,7 @@ services:
     depends_on:
       - api
     #image: victorrocha3/magic-stream-web:${IMAGE_TAG:-latest}
-    image: magic-stream-web-dev:1.0.0
+    image: magic-stream-web-dev:1.0.1
     container_name: magic-stream-web-dev
     ports:
       - "5173:5173"
@@ -15,7 +15,7 @@ services:
     depends_on:
       - db
     #image: victorrocha3/magic-stream-api:${IMAGE_TAG:-latest}
-    image: magic-stream-api-dev:1.0.0
+    image: magic-stream-api-dev:1.0.1
     container_name: magic-stream-api-dev
     ports:
       - "8080:8080"

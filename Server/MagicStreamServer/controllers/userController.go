@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"time"
-
+	"errors"
 	"github.com/GavinLonDigital/MagicStream/Server/MagicStreamServer/database"
 	"github.com/GavinLonDigital/MagicStream/Server/MagicStreamServer/models"
 	"github.com/GavinLonDigital/MagicStream/Server/MagicStreamServer/utils"
